@@ -1,83 +1,90 @@
 html {
-    box-sizing: border-box;
-  }
-  *,
-  *::before,
-  *::after{
-    box-sizing: inherit;
-  }
-  
-  a {
-    color: inherit;
-    text-decoration: none;
-  }
-  
-  img {
-    width: 182px;
-    height: 175px;
-  }
-  
-  body{
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  width: 182px;
+  height: 175px;
+}
+
+body {
   min-width: 1170px;
   font-family: 'font', sans-serif;
-  }
-  
-  .list-reset {
+}
+
+.wrapper {
+  width: 80%;
+  max-width: 720px;
+}
+
+.list-reset {
   margin: 0;
   padding: 0;
   list-style: none;
-  }
+}
 
-  .flex {
-    display: flex;
-  }
-  
-  .site-container {
-    width: 1170px;
-    
-    margin: 0 auto;
-  }
+.flex {
+  display: flex;
+}
 
-  .header-container {
-    flex-direction: row;
-    max-width: 1170px;
-    
-    background-color: black;
-    color: white;
-  }
+.site-container {
+  width: 1170px;
 
-  .img-header {
-    width: 182px;
-    height: 190px;
-    align-items: center;
-    margin: 20px 60px 60px 100px;
-  }
+  margin: 0 auto;
+}
 
-  .header-title-info {
-    flex-direction: column;
-    justify-content: space-between;
-  }
+.header-container {
+  flex-direction: row;
+  max-width: 1170px;
 
-  .header-text-block {
-    height: 36.8px;
-    padding: 10px;
-    background-color :rgb(40, 38, 45);
-    font-size: 20px;
-    
-  }
+  background-color: black;
+  color: white;
+}
+
+.img-header {
+  width: 182px;
+  height: 190px;
+  align-items: center;
+  margin: 20px 60px 60px 100px;
+}
+
+.header-title-info {
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header-text-block {
+  height: 36.8px;
+  padding: 10px;
+  background-color: rgb(40, 38, 45);
+  font-size: 20px;
+
+}
 
 .header-contact {
   flex-direction: row;
   align-items: stretch;
   justify-content: left;
   padding: 0;
-  margin: 0;  
+  margin: 0;
   color: #C3BFBF;
 }
 
 .contacts-item-caption {
   text-align: left;
 }
+
 /* .header-title-info {
     flex-direction: column; */
 }
@@ -86,7 +93,7 @@ html {
   width: 100%;
   margin-right: auto;
 }
-  
+
 .years {
   display: block;
   margin-bottom: 20px;
@@ -131,9 +138,7 @@ html {
   margin-right: 10px;
 }
 
-.main-container {
-
-}
+.main-container {}
 
 
 .section-right {
@@ -166,6 +171,6 @@ html {
 }
 
 .level-svg {
-display: inline-block;
-/* margin-left: 80px; */
+  display: inline-block;
+  /* margin-left: 80px; */
 }
