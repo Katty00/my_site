@@ -85,9 +85,6 @@ body {
   text-align: left;
 }
 
-/* .header-title-info {
-    flex-direction: column; */
-}
 
 .header-user {
   width: 100%;
@@ -138,7 +135,9 @@ body {
   margin-right: 10px;
 }
 
-.main-container {}
+.main-container {
+  
+}
 
 
 .section-right {
